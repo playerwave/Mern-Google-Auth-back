@@ -1,0 +1,35 @@
+# Ignore .env file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build outputs
+/build
+/dist
+
+# Ignore coverage directory used by testing tools
+coverage/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore other sensitive or generated files
+*.pem
+*.key
+*.crt
